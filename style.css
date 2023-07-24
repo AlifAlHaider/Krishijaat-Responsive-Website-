@@ -1,0 +1,106 @@
+/* 
+.mobile-container {
+    max-width: 480px;
+    margin: auto;
+    background-color: #555;
+    height: 500px;
+    color: white;
+    border-radius: 10px;
+  }
+  
+ */
+/*   
+  .topnav #myLinks {
+    display: none;
+    background-color: #333;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 60px;
+    width: 100%;
+   
+
+    
+  }
+  
+  .topnav ul {
+    color: white;
+    padding: 20px ;
+    text-decoration: none;
+    font-size: 25px;
+    display: block;
+  }
+
+  
+  
+  .topnav a.icon {
+    color: black;
+    display: block;
+    position: absolute;
+    right: 10;
+    top: 10px;
+  }
+  
+  .topnav a:hover {
+   
+    color: rgba(38, 125, 62, 1);
+  }
+  
+  .active {
+    background-color: #04AA6D;
+    color: white;
+  }
+
+
+  .menu-items{
+    height:30vh;
+    width: 50vh;
+  }
+   */ 
+   .sidepanel  {
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: black;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    
+  }
+  
+  .sidepanel a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.1s;
+  }
+  
+  .sidepanel a:hover {
+    color: #f1f1f1;
+  }
+  
+  .sidepanel .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+  }
+  
+  .openbtn {
+    font-size: 20px;
+    cursor: pointer;
+  
+    color: #111;
+    padding: 10px 15px;
+    border: none;
+  }
+  
+  .openbtn:hover {
+    color:#15803D;
+  }
+  

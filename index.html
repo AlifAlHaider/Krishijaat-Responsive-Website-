@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Krishi Jaat Home Page</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://kit.fontawesome.com/e14a2aaf26.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Rubik:wght@500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="container mx-auto my-4 xl:px-0 px-2  ">
+    <!-- nav section -->
+    <div class="sticky top-0 container mx-auto my-4 z-10 xl:px-0 px-2 ">
+        <div class="Main-Nav-div flex justify-between items-center  bg-[#FFFFFF] ">
+            <div class="hidden lg:block ">
+                <ul class="flex gap-[20px] text-stone-900 text-base font-medium ">
+                    <li>About us</li>
+                    <li>Blogs</li>
+                    <li>Impact Stories</li>
+                    <li>All Tools <i class="fa-solid fa-angle-down"></i></li>
+                </ul>
+            </div>
+            <div class="logo lg:ml-[-200px] ">
+                <img class="hidden lg:block" src="/Logo.png" alt="">
+                <img class="lg:hidden" src="/Logo small device.png" alt="">
+            </div>
+            <div class="icons flex items-center gap-[10px]  lg:mr-0 ">
+
+
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <i class="fa-solid fa-user"></i>
+                <div class="">
+                    <button
+                        class="py-[10px] px-[18px] bg-green-700 rounded-[200px] justify-center items-center gap-2.5 inline-flex text-neutral-50 lg:px-8 lg:py-5">Shop</button>
+
+                </div>
+                <div class="lg:hidden">
+                    <div id="mySidepanel" class="sidepanel ">
+                        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+                        <a href="#">About us</a>
+                        <a href="#">Blogs</a>
+                        <a href="#">Impact Stories</a>
+                        <a href="#">All Tools</a>
+                      </div>
+                
+                  
+                  <button class="openbtn " onclick="openNav()">☰ </button> 
+                </div> 
+                  
+            </div>
+        </div>
+    </div>
+
+    <!-- hero section  -->
+    <div>
+        <div class="bg-[#F1F1F1] lg:px-[341px] lg:py-[160px] py-[74px] px-[44px] rounded-xl mt-[30px]">
+            <div class="bg-[#F5FEEC] text-center p-10 rounded-bl-[50px] rounded-tr-[50px] border-4 border-[#C4E59C]">
+                <h1 class="font-bold leading-[45px] lg:text-[40px] text-[32px] py-5">Connecting <br> Agrisense In Life
+                </h1>
+                <button
+                    class="px-8 py-5 bg-[#C4E59C] rounded-[200px] justify-center items-center gap-2.5 inline-flex text-stone-900"><i
+                        class="fa-solid fa-cart-shopping"></i> Shop now</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- cart section -->
+
+    <div class="grid sm:grid-cols-2 my-10  gap-[30px] px-2 xl:px-0 lg:mt-[130px]  lg:grid-cols-4 ">
+
+        <div class="bg-[#F5FEEC] text-center  px-[50px] py-[50px] rounded-[50px] border-4 border-[#C4E59C]">
+            <div class="mx-auto w-[56px]"><img src="/Farmer.png" alt=""></div>
+            <h1 class="font-bold leading-[45px] text-[40px] py-5">200+</h1>
+            <p class="font-medium">Registered Farmers</p>
+        </div>
+        <div class="bg-[#F5FEEC] text-center  px-[50px] py-[50px] rounded-[50px] border-4 border-[#C4E59C]">
+            <div class="mx-auto w-[56px]"><img src="/Farmer.png" alt=""></div>
+            <h1 class="font-bold leading-[45px] text-[40px] py-5">200+</h1>
+            <p class="font-medium">Registered Farmers</p>
+        </div>
+        <div class="bg-[#F5FEEC] text-center  px-[50px] py-[50px] rounded-[50px] border-4 border-[#C4E59C]">
+            <div class="mx-auto w-[56px]"><img src="/Farmer.png" alt=""></div>
+            <h1 class="font-bold leading-[45px] text-[40px] py-5">200+</h1>
+            <p class="font-medium">Registered Farmers</p>
+        </div>
+        <div class="bg-[#F5FEEC] text-center  px-[50px] py-[50px] rounded-[50px] border-4 border-[#C4E59C]">
+            <div class="mx-auto w-[56px]"><img src="/Farmer.png" alt=""></div>
+            <h1 class="font-bold leading-[45px] text-[40px] py-5">200+</h1>
+            <p class="font-medium">Registered Farmers</p>
+        </div>
+    </div>
+
+    <!-- who we are section  -->
+    <section>
+        <div class="lg:flex justify-between  lg:gap-48 text-center lg:text-left  ">
+            <div >
+                <h1 class="xl:text-[48px] lg:text-[30px] text-[28px] font-bold">Who we are?</h1>
+                <p class=" text-black text-base font-normal">Lorem Ipsum is simply dummy text of the <br> printing and
+                    typesetting industry. Lorem Ipsum <br> has been the industry's standard dummy. <br>Lorem Ipsum has
+                    been.</p>
+                <button
+                    class="hidden lg:block mt-8  px-8 py-5 bg-green-700 rounded-[200px] justify-center items-center gap-2.5 inline-flex text-neutral-50">Read
+                    More </button>
+            </div>
+
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-10 mt-10 lg:mt-0 ">
+
+                <div>
+                    <div class="flex justify-center lg:justify-start"><img src="/Farmer.png" alt=""></div>
+                    <h3 class="font-bold py-[8px]">We are Farmer</h3>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+                </div>
+
+
+                <div>
+                    <div class="flex justify-center lg:justify-start"><img src="/Farmer.png" alt=""></div>
+                    <h3 class="font-bold py-[8px]">We are Farmer</h3>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+                </div>
+
+                <div>
+                    <div class="flex justify-center lg:justify-start"><img src="/Farmer.png" alt=""></div>
+                    <h3 class="font-bold py-[8px]">We are Farmer</h3>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+                </div>
+                <div>
+                    <div class="flex justify-center lg:justify-start"><img src="/Farmer.png" alt=""></div>
+                    <h3 class="font-bold py-[8px]">We are Farmer</h3>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+                </div>
+                <div>
+                    <button
+                        class="lg:hidden  px-8 py-5 bg-[#C4E59C] rounded-[200px] justify-center items-center gap-2.5 inline-flex text-black">Read
+                        More </button>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+    <!-- product category section  -->
+    <section class="mt-10 lg:mt-[130px]">
+        <div class="flex justify-between">
+            <h1 class="text-[38px] lg:text-[48px] font-bold text-center lg:text-left">Product Categories</h1>
+            <div class="hidden lg:block">
+                <button class="rounded-full bg-[#F5FEEC] hover:bg-[#C4E59C] px-[18px] py-[12px] "><i
+                        class="fa-solid fa-angle-left"></i></button>
+                <button class="rounded-full bg-[#F5FEEC] hover:bg-[#C4E59C] px-[18px] py-[12px] "><i
+                        class="fa-solid fa-angle-right"></i></button>
+            </div>
+
+        </div>
+        <div class="grid lg:grid-cols-4 grid-cols-1 gap-10 mt-[50px]">
+            <div class="bg-[#F5FEEC] py-[35px] px-[50px] rounded-[40px] flex justify-center items-center ">
+                <img class="" src="/honey-icon.png" alt="">
+            </div>
+            <div class="bg-[#F5FEEC] py-[35px] px-[50px] rounded-[40px] flex justify-center items-center ">
+                <img class="" src="/fish-icon.png" alt="">
+            </div>
+            <div class="bg-[#F5FEEC] py-[35px] px-[50px] rounded-[40px] flex justify-center items-center ">
+                <img class="" src="/fruits-icon.png" alt="">
+            </div>
+            <div class="bg-[#F5FEEC] py-[35px] px-[50px] rounded-[40px] flex justify-center items-center ">
+                <img class="" src="/spices icon.png" alt="">
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Our story section  -->
+    <section class="mt-10 lg:mt-[130px]">
+        <div class="flex justify-between ">
+            <h1 class="text-[38px] lg:text-[48px] font-bold text-center lg:text-left">Our Impact Stories</h1>
+            <div class="hidden lg:block flex gap-2">
+                <button class="rounded-full bg-[#F5FEEC] hover:bg-[#C4E59C] px-[18px] py-[12px] "><i
+                        class="fa-solid fa-angle-left"></i></button>
+                <button class="rounded-full bg-[#F5FEEC] hover:bg-[#C4E59C] px-[18px] py-[12px] "><i
+                        class="fa-solid fa-angle-right"></i></button>
+            </div>
+
+        </div>
+
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-8 mt-10 ">
+            <div class="bg-[#C4E59C] rounded-[42px]">
+                <img class="w-full " src="/male labour.png" alt="">
+                <div class="py-[32px] px-[22px]">
+                    <h1 class="text-[22px] font-bold leading-1 ">By promoting organic practices <br> company nourished
+                        health.</h1>
+                    <div class="flex justify-between mt-[27px] text-[#616161] ">
+                        <p class="text-[#616161]">December 25, 2023</p>
+                        <i class="fa-solid fa-share-nodes"></i>
+                    </div>
+
+                </div>
+            </div>
+            <div class="bg-[#C4E59C] rounded-[42px]">
+                <img class=" w-full" src="/orange raincoat.png" alt="">
+                <div class="py-[32px] px-[22px]">
+                    <h1 class="text-[22px] font-bold leading-1 ">By promoting organic practices <br> company nourished
+                        health.</h1>
+                    <div class="flex justify-between mt-[27px]  ">
+                        <p class="text-[#616161]">December 25, 2023</p>
+                        <i class="fa-solid fa-share-nodes"></i>
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="bg-[#C4E59C] rounded-[42px]">
+                <img class=" w-full" src="/female labour.png" alt="">
+                <div class="py-[32px] px-[22px]">
+                    <h1 class="text-[22px] font-bold leading-1 ">By promoting organic practices <br> company nourished
+                        health.</h1>
+                    <div class="flex justify-between mt-[27px]  ">
+                        <p class="text-[#616161]">December 25, 2023</p>
+                        <i class="fa-solid fa-share-nodes"></i>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+        </div>
+        </div>
+    </section>
+    <!-- Empty-div  -->
+    <section class="mt-10 lg:mt-[122px]">
+        <div class="bg-[#F1F1F1] pt-[400px] pb-20 rounded-[40px]">
+            <div class="flex justify-center items-center">
+                <button
+                    class="px-8 py-5 bg-[#C4E59C] rounded-[200px] justify-center items-center gap-2.5 inline-flex text-stone-900"><i
+                        class="fa-solid fa-cart-shopping"></i> Shop now</button>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- blogs div  -->
+    <section class="mt-10 lg:mt-[122px]">
+        <div class="flex justify-between ">
+            <h1 class="text-[38px] lg:text-[48px] font-bold text-center lg:text-left">Blogs</h1>
+            <div class="hidden lg:block flex gap-2">
+                <button class="rounded-full bg-[#F5FEEC] hover:bg-[#C4E59C] px-[18px] py-[12px] "><i
+                        class="fa-solid fa-angle-left"></i></button>
+                <button class="rounded-full bg-[#F5FEEC] hover:bg-[#C4E59C] px-[18px] py-[12px] "><i
+                        class="fa-solid fa-angle-right"></i></button>
+            </div>
+
+
+        </div>
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-10 mt-[50px]">
+            <div class="bg-[#C4E59C] rounded-[40px]">
+            
+                <div class="py-[32px] px-[22px] m-[24px]">
+                    <div class="flex justify-between mt-[27px]  ">
+                        <p class="text-[#616161]">December 25, 2023</p>
+                        <i class="fa-solid fa-share-nodes"></i>
+                   </div>
+                   <h1 class="text-[22px] font-bold leading-1 ">By promoting organic the <br> company nourished health.</h1>
+                   <p class="text-[16px] font-medium">By <span class="text-[#267D3E]">Krishijaat Admin</span></p>
+    
+                    </div>
+                   <img class=" w-full" src="/mango garden.png" alt="">
+    
+    
+                </div>
+
+                <div class="bg-[#C4E59C] rounded-[40px]">
+            
+                    <div class="py-[32px] px-[22px] m-[24px]">
+                        <div class="flex justify-between mt-[27px]  ">
+                            <p class="text-[#616161]">December 25, 2023</p>
+                            <i class="fa-solid fa-share-nodes"></i>
+                       </div>
+                       <h1 class="text-[22px] font-bold leading-1 ">By promoting organic the <br> company nourished health.</h1>
+                       <p class="text-[16px] font-medium">By <span class="text-[#267D3E]">Krishijaat Admin</span></p>
+        
+                        </div>
+                       <img class=" w-full" src="/mango garden.png" alt="">
+        
+        
+                    </div>
+
+                    <div class="bg-[#C4E59C] rounded-[40px]">
+            
+                        <div class="py-[32px] px-[22px] m-[24px]">
+                            <div class="flex justify-between mt-[27px]  ">
+                                <p class="text-[#616161]">December 25, 2023</p>
+                                <i class="fa-solid fa-share-nodes"></i>
+                           </div>
+                           <h1 class="text-[22px] font-bold  ">By promoting organic the <br> company nourished health.</h1>
+                           <p class="text-[16px] font-medium">By <span class="text-[#267D3E]">Krishijaat Admin</span></p>
+            
+                            </div>
+                           <img class=" w-full" src="/mango garden.png" alt="">
+            
+            
+                        </div>
+        </div>
+
+    </section>
+
+    <!-- contact us section  -->
+    <section class="mt-10 lg:mt-[122px]">
+        <div class="bg-[#F5FEEC] lg:py-[67px] lg:px-[94px] py-[34px] px-[28px] lg:rounded-[200px] rounded-[40px]">
+            <div class="lg:flex justify-between">
+                <h1 class="lg:text-[48px] text-[28px] font-bold">Stay Connected<br class="lg:hidden "> With Us</h1>
+                <button
+                class=" px-8 py-5 bg-[#C4E59C] rounded-[200px] justify-center items-center gap-2.5 inline-flex text-[#102515]">Contact Us</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer section -->
+
+    <section class="footer-section px-2 mt-10 xl:px-0 lg:mt-[122px]  ">
+        <div class="flex lg:justify-between items-center flex-col lg:flex-row py-8">
+            <!-- <div class="flex justify-center lg:justify-start"> -->
+            <div class="">
+                <img src="/Logo.png" alt="">
+                <p class="text-green-950 text-base font-normal leading-normal ">Connecting Agrisense In Life</p>
+            </div>
+
+            <div class="lg:hidden  items-center">
+                <div class="text-[16px]  leading-[35px] text-[#102515] ">
+                    <div class="text-center lg:text-left">
+                        <p class="font-bold ">Stay Connected With Us</p>
+                    </div>
+                    <div class="flex justify-center gap-[15px] py-5 text-[20px]">
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-tiktok"></i>
+                        <i class="fa-brands fa-facebook-f"></i>
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </div>
+
+                    <div>
+                        <img src="/community logo.png" alt="">
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- </div> -->
+            <div class="flex justify-center lg:justify-start">
+                <div class="text-[#102515] lg:text-left text-center text-[16px] leading-[35px]">
+                    <p class="font-bold">Address</p>
+                    <p>Jahurul Islam Avenue, Main Road</p>
+                    <p>Aftabnagar D-Block, Dhaka 1212</p>
+                    <p class="font-bold">Email</p>
+                    <p>hello@krishijaat.com</p>
+                </div>
+            </div>
+
+            <div class="text-[#102515] text-[16px] leading-[35px] lg:text-left text-center">
+                <p class="font-bold">Let Us Help You</p>
+                <p>Your Account</p>
+                <p>Your Order</p>
+                <p>Privacy Policy</p>
+                <p>FAQ</p>
+            </div>
+            <div class="hidden lg:block">
+                <div class="text-[16px] leading-[35px] text-[#102515] ">
+                    <p class="font-bold ">Stay Connected With Us</p>
+                    <div class="flex gap-[15px] py-5 text-[20px]">
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-tiktok"></i>
+                        <i class="fa-brands fa-facebook-f"></i>
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </div>
+
+                    <div>
+                        <img src="/community logo.png" alt="">
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <p class="border-t-2 flex justify-center p-4">Copyright © 2023 Krishijaat. All rights reserved.</p>
+    </section>
+
+</body>
+
+</html>
